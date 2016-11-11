@@ -10,3 +10,6 @@ li {
 #main-title {
 	color: orange;
 }
+a:hover {
+	outline: solid;
+}
