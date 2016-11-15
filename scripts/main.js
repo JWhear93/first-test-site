@@ -1,8 +1,10 @@
-var myHeading = document.querySelector('h1');
-myHeading.textContent = 'Hello world!';
-var myVariable = "Message"
-if (myVariable==='Message') {
-	alert('Welcome!');
-}	else {
-	alert('Welcome');
+var myImage = document.querySelector('img');
+
+myImage.onclick = function() {
+	var mySrc = myImage.getAttribute('src');
+	if(mySrc === 'images/brute.jpg') {
+		myImage.setAttribute ('src','images/characterpoe2.jpg');
+	} else {
+		myImage.setAttribute ('src','images/brute.jpg');
+	}
 }
