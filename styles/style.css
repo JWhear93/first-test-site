@@ -36,6 +36,8 @@ h1 {
 img {
 	display: block;
 	margin: 0 auto;
+	width: 718px;
+	height: 748px;
 }
 img:hover {
 	outline: solid;
