@@ -25,26 +25,52 @@
 
     <table>
     	<tr>
-    		<td>Row 1, cell 1</td>
-    		<td>Row 1, cell 2</td>
-    		<td>Row 1, cell 3</td>
+    		<td><strong>Melee</strong></td>
+    		<td><strong>Mage</strong></td>
+    		<td><strong>Ranged</strong></td>
     	</tr>
     	<tr>
-    		<td>Row 2, cell 1</td>
-    		<td>Row 2, cell 2</td>
-    		<td>Row 2, cell 3</td>
+    		<td>Swords</td>
+    		<td>Fire</td>
+    		<td>Bows</td>
     	</tr>
     	<tr>
-    		<td>Row 3, cell 1</td>
-    		<td>Row 3, cell 2</td>
-    		<td>Row 3, cell 3</td>
+    		<td>Axes</td>
+    		<td>Water</td>
+    		<td>Crossbows</td>
     	</tr>
     	<tr>
-    		<td>Row 4, cell 1</td>
-    		<td>Row 4, cell 2</td>
-    		<td>Row 4, cell 3</td>
+    		<td>Maces</td>
+    		<td>Lightning</td>
+    		<td>Thrown Weapons</td>
     	</tr>
     </table>
+
+    <p><em>And many, many more!</em></p>
+
+
+
+    <p>Contact us using the <strong>form below</strong> to tell us what you made!</p>
+
+    <form action="contactus.php" method="post">
+
+    	<p>Name:</p>
+    	<p><input type="text" name="name" value="Your name"></p>
+
+    	<p>Species:</p>
+    	<p><input type="text" name="species" value="Your species"></p>
+
+    	<p>Comments:</p>
+    	<p><textarea name="comments" rows="5" cols="20">Your comments</textarea></p>
+
+    	<p>Are you:</p>
+    	<p><input type="radio" name="areyou" value="male"> Male</p>
+    	<p><input type="radio" name="areyou" value="female"> Female</p>
+    	<p><input type="radio" name="areyou" value="hermaphrodite"> An hermaphrodite</p>
+    	<p><input type="radio" name="areyou" value="asexual"> Asexual</p>
+
+    	<p><input type="submit"></p>
+    </form>
 
     <button>Change user</button>
     <script src="scripts/main.js"></script>
