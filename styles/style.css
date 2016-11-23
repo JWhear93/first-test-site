@@ -42,3 +42,11 @@ img {
 img:hover {
 	outline: solid;
 }
+table {
+	margin: 0 auto;
+	width: 320px;
+	border: 2px solid black;
+}
+.table-title {
+	font-size: 20px;
+}
