@@ -44,12 +44,12 @@ img:hover {
 }
 table {
 	margin: 0 auto;
-	width: 320px;
+	width: 430px;
 	border: 2px solid black;
 }
 .table-title {
 	font-size: 20px;
-	text-decoration: underline;
+	text-decoration: none;
 }
 #top-button {
 	text-align: center;
