@@ -45,7 +45,7 @@ img:hover {
 table {
 	margin: 0 auto;
 	width: 430px;
-	border: 2px solid black;
+	border-style: double;
 }
 .table-title {
 	font-size: 20px;
@@ -60,4 +60,7 @@ table {
 	margin: 0 auto;
 	width: 120px;
 	font-variant: small-caps;
+}
+#form {
+	font-weight: bold;
 }
