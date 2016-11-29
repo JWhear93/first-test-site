@@ -7,6 +7,12 @@ li {
 a:hover {
 	font-weight: bolder;
 }
+a:link {
+	color: blue;
+}
+a:visited {
+	color: purple;
+}
 html {
 	font-size: 10px;
 	font-family: 'Source Sans Pro', sans-serif;
@@ -67,4 +73,7 @@ table {
 #form h2 {
 	font-size: 20px;
 	
+}
+#form input:focus, textarea:focus {
+	background: #eee;
 }
