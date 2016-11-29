@@ -24,7 +24,7 @@ h1 {
 	font-family:'Bungee Inline', cursive;
 	margin: 0;
 	padding: 20px 0;
-	color: #000000;
+	color: #95CFEE;
 	text-shadow: 3px 3px 1px black;
 }
 p, table {
@@ -46,7 +46,7 @@ img {
 	height: 748px;
 }
 img:hover {
-	outline: solid;
+	outline: dashed;
 }
 table {
 	margin: 0 auto;
