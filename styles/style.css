@@ -80,3 +80,8 @@ table {
 #form input:focus, textarea:focus {
 	background: #eee;
 }
+#badger {
+	text-align: center;
+	color: red;
+	font-size: 18px;
+}
