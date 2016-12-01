@@ -36,7 +36,7 @@ body {
 	width: 800px;
 	margin: 0 auto;
 	background: url(../images/sword.png) no-repeat 58% 87%, url(../images/bow.png) no-repeat 70% 90%, 
-		url(../images/fire-ball.png) no-repeat -8% 60%, url(../images/fire-ball.png) no-repeat 108% 60% #A2EE95;
+		url(../images/fire-ball.png) no-repeat 10% 60% / 10%, url(../images/fire-ball.png) no-repeat 90% 60% / 10% #A2EE95;
 	padding: 0 20px 20px 20px;
 	border: 5px solid black;
 }
