@@ -16,7 +16,7 @@ a:visited {
 html {
 	font-size: 10px;
 	font-family: 'Source Sans Pro', sans-serif;
-	background-color: #95CFEE;
+	background: url(../images/blue-fire.png) no-repeat bottom center #0C1C4F;
 }
 h1 {
 	font-size: 50px;
@@ -35,7 +35,8 @@ p, table {
 body {
 	width: 800px;
 	margin: 0 auto;
-	background: url(../images/sword.png) no-repeat 58% 87%, url(../images/bow.png) no-repeat 70% 90% #A2EE95;
+	background: url(../images/sword.png) no-repeat 58% 87%, url(../images/bow.png) no-repeat 70% 90%, 
+		url(../images/fire-ball.png) no-repeat -8% 60%, url(../images/fire-ball.png) no-repeat 108% 60% #A2EE95;
 	padding: 0 20px 20px 20px;
 	border: 5px solid black;
 }
