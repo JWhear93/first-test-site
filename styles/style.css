@@ -85,3 +85,8 @@ table {
 	color: red;
 	font-size: 18px;
 }
+#feature-list {
+	display: block;
+	margin: 0 5px 10px 5px;
+	padding-left: 150px;
+}
