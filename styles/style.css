@@ -102,3 +102,8 @@ blockquote {
 	display: inline-block;
 	background-color: #B5F1B5;
 }
+#user-button {
+	position: absolute;
+	margin-left: 150px;
+	right: 100px;
+}
