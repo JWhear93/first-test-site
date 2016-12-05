@@ -76,6 +76,9 @@ table {
 }
 #form {
 	font-weight: bold;
+	background-color: #B5F1B5;
+	width: 270px;
+	padding-left: 10px;
 }
 #form h2 {
 	font-size: 20px;
@@ -101,6 +104,7 @@ table {
 blockquote {
 	display: inline-block;
 	background-color: #B5F1B5;
+	padding-left: 10px;
 }
 #user-button {
 	position: absolute;
