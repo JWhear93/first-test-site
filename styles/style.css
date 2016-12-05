@@ -91,3 +91,7 @@ table {
 	margin: 0 5px 10px 5px;
 	padding-left: 150px;
 }
+#feature-list li::first-letter {
+	font-size: 20px;
+	letter-spacing: 0;
+}
