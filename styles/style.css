@@ -17,6 +17,7 @@ html {
 	font-size: 10px;
 	font-family: 'Source Sans Pro', sans-serif;
 	background: url(../images/blue-fire.png) no-repeat bottom center #0C1C4F;
+	min-width: 1000px;
 }
 h1 {
 	font-size: 50px;
@@ -33,12 +34,12 @@ p, table {
 	letter-spacing: 1px;
 }
 body {
-	width: 800px;
+	min-width: 1000px;
+	width: auto;	
 	margin: 0 auto;
-	background: url(../images/sword.png) no-repeat 58% 87%, url(../images/bow.png) no-repeat 70% 90%, 
-		url(../images/fire-ball.png) no-repeat 10% 62% / 10%, url(../images/fire-ball.png) no-repeat 90% 62% / 10% #A2EE95;
-	padding: 0 20px 20px 20px;
-	border: 5px solid black;
+	background: url(../images/blue-fire.png) no-repeat bottom center #0C1C4F;
+	background-size: auto auto;
+	padding: 0 20px 20px 20px;	
 }
 img {
 	display: block;
@@ -56,6 +57,18 @@ table {
 	border-left-width: 5px;
 	border-right-width: 5px;
 	padding: 5px 5px 5px 5px;
+}
+#main-area {
+	width: 1000px;
+	background: url(../images/sword.png) no-repeat 58% 87%, url(../images/bow.png) no-repeat 70% 90%, 
+		url(../images/fire-ball.png) no-repeat 20% 62% / 10%, url(../images/fire-ball.png) no-repeat 80% 62% / 10% #A2EE95;
+	display: block;
+	margin: 0 auto;
+	position: relative;
+	top: 0;
+	bottom: 0;
+	padding: 0 10px;
+	border: 5px solid black;
 }
 .list-title {
 	font-size: 19px;
@@ -108,5 +121,5 @@ blockquote {
 }
 #user-button {
 	position: absolute;
-	margin-left: 560px;
+	margin-left: 800px;
 }
