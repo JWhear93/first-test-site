@@ -16,7 +16,7 @@ a:visited {
 html {
 	font-size: 10px;
 	font-family: 'Source Sans Pro', sans-serif;
-	background: url(../images/blue-fire.png) no-repeat bottom center #0C1C4F;
+	background-color: #0C1C4F;
 	min-width: 1000px;
 }
 h1 {
@@ -39,7 +39,7 @@ body {
 	margin: 0 auto;
 	background: url(../images/blue-fire.png) no-repeat bottom center #0C1C4F;
 	background-size: auto auto;
-	padding: 0 20px 20px 20px;	
+	padding: 0;	
 }
 img {
 	display: block;
@@ -122,4 +122,17 @@ blockquote {
 #user-button {
 	position: absolute;
 	margin-left: 800px;
+}
+#similar-games {
+	position: fixed;
+	float: left;
+	display: block;
+	margin: 120px 10px 10px 270px;
+	padding: 0 5px;
+	background-color: #95CFEE;
+	border: 2px solid black;
+}
+#nav-header {
+	display: inline;
+	font-size: 18px;
 }
