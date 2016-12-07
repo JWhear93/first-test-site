@@ -3,4 +3,29 @@ html {
 	font-family: 'Source Sans Pro', sans-serif;
 	line-height: 2px;
 	letter-spacing: 1px;
+	min-width: 800px;
+}
+body {
+	background: #000000;
+	width: auto;
+	min-width: 800px;
+	margin: 0 auto;
+	padding: 0;
+}
+#diablo-page {
+	display: block;
+	width: 800px;
+	margin: 0 auto;
+	background: #A8EFA3;
+	padding: 0 0 20px 0;
+}
+h1 {
+	font-family: 'Oswald', sans-serif;
+	text-align: center;
+	font-size: 40px;
+	padding: 20px 0;
+	margin: 0 auto;
+}
+#diablo-title {
+	padding: 20px 0;
 }
