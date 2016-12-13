@@ -87,3 +87,19 @@ h2 {
 	width: 600px;
 	font-size: 18px;
 }
+#similar-games {
+	display: block;
+	position: fixed;
+	float: left;
+	background: #C14242;
+	margin: 200px 0 0 325px;
+	width: 130px;
+	font-size: 18px;
+	padding-left: 5px;
+}
+#nav-header {
+
+}
+a:hover {
+	font-weight: bold;
+}
