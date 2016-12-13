@@ -13,6 +13,7 @@ body {
 }
 #diablo-page {
 	display: block;
+	position: relative;
 	width: 900px;
 	margin: 0 auto;
 	background: #A8EFA3;
@@ -91,7 +92,7 @@ h2 {
 	display: block;
 	position: fixed;
 	float: left;
-	background: #C14242;
+	background: #93C463;
 	margin: 200px 0 0 325px;
 	width: 130px;
 	font-size: 18px;
