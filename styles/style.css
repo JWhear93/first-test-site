@@ -142,3 +142,9 @@ legend {
 	font-size: 17px;
 	font-weight: normal;
 }
+.region {
+	display: inline-block;
+}
+#type {
+	display: inline-block;
+}

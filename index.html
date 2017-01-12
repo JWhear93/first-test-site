@@ -99,11 +99,20 @@
     			<p>Comments:</p>
     			<p><textarea name="comments" rows="5" cols="33">Your comments</textarea></p>
 
-    			<p>Are you:</p>
-    			<p><input type="radio" name="areyou" value="melee"> Melee</p>
-    			<p><input type="radio" name="areyou" value="mage"> A Mage</p>
-    			<p><input type="radio" name="areyou" value="ranged"> A Ranger</p>
-    			<p><input type="radio" name="areyou" value="hybrid"> A Hybrid</p>
+    			<p id="type">Are you:</p>
+    			<br>
+    			<input id="melee" type="radio" name="areyou" value="melee"><label for="melee">Melee</label>
+    			<input id="mage" type="radio" name="areyou" value="mage"><label for="mage">A Mage</label>
+    			<input id="ranger" type="radio" name="areyou" value="ranged"><label for="ranger">A Ranger</label>
+    			<input id="hybrid" type="radio" name="areyou" value="hybrid"><label for="hybrid">A Hybrid</label>
+    			<br>
+
+    			<p class="region">Server Region - </p>
+    			<select class="region">
+    				<option>EU</option>
+    				<option>US</option>
+    				<option>RU</option>
+    			</select>
 
     			<p><input type="submit" value="Submit"></p>
     		</fieldset>
