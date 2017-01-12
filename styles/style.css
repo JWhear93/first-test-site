@@ -92,9 +92,11 @@ table {
 	background-color: #B5F1B5;
 	width: 270px;
 	padding-left: 10px;
+	padding-right: 10px;
 }
 #form h2 {
 	font-size: 20px;
+	text-align: center;
 	
 }
 #form input:focus, textarea:focus {
@@ -135,4 +137,8 @@ blockquote {
 #nav-header {
 	display: inline;
 	font-size: 18px;
+}
+legend {
+	font-size: 17px;
+	font-weight: normal;
 }
