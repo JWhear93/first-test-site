@@ -13,7 +13,7 @@ var myHeading = document.querySelector('h1');
 function setUserName() {
 	var myName = prompt('Please enter your name');
 	localStorage.setItem('name', myName);
-	myHeading.textContent = 'Do you like video games? ' + myName;
+	myHeading.textContent ='Hi '+ myName + ', Do you like video games? ';
 }
 if(!localStorage.getItem('name')) {
 	setUserName();
