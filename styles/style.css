@@ -60,8 +60,10 @@ table {
 }
 #main-area {
 	width: 1000px;
-	background: url(../images/sword.png) no-repeat 58% 87%, url(../images/bow.png) no-repeat 70% 90%, 
-		url(../images/fire-ball.png) no-repeat 20% 62% / 10%, url(../images/fire-ball.png) no-repeat 80% 62% / 10% #A2EE95;
+	background: url(../images/sword.png) no-repeat 58% 87%, 
+		url(../images/bow.png) no-repeat 70% 90%, 
+		url(../images/fire-ball.png) no-repeat 20% 62% / 10%, 
+		url(../images/fire-ball.png) no-repeat 80% 62% / 10% #A2EE95;
 	display: block;
 	margin: 0 auto;
 	position: relative;
@@ -78,6 +80,7 @@ table {
 	text-decoration: none;
 }
 #top-button {
+	background: #A2EE95;
 	text-align: center;
 	font-weight: bold;
 	border: 1px solid black;
@@ -86,6 +89,9 @@ table {
 	margin: 0 auto;
 	width: 120px;
 	font-variant: small-caps;
+}
+#top-button:hover {
+	background: #95CFEE;
 }
 .form {
 	font-weight: bold;
