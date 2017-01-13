@@ -87,19 +87,20 @@ table {
 	width: 120px;
 	font-variant: small-caps;
 }
-#form {
+.form {
 	font-weight: bold;
 	background-color: #B5F1B5;
-	width: 270px;
+	width: 320px;
 	padding-left: 10px;
 	padding-right: 10px;
+	margin-left: 10px;
 }
-#form h2 {
+.form h2 {
 	font-size: 20px;
 	text-align: center;
 	
 }
-#form input:focus, textarea:focus {
+.form input:focus, textarea:focus {
 	background: #eee;
 }
 #badger {
@@ -145,6 +146,18 @@ legend {
 .region {
 	display: inline-block;
 }
+.region p {
+	letter-spacing: 0;
+}
 #type {
 	display: inline-block;
+}
+#melee {
+	font-size: 12px;
+}
+label {
+	font-size: 12px;
+}
+.fields {
+	width: 259px;
 }

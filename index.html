@@ -84,20 +84,20 @@
 
     	<p>Contact us using the <strong>form below</strong> to tell us what you made!<br><strong>Note:</strong> It looks the part, but won't do anything at the moment.</p>
 
-    	<div id="form">
-    	<br><h2>Contact us here.</h2>
+    	<div class="form">
+    	<h2>Contact us here.</h2>
 
     	<form action="contactus.php" method="post">
     		<fieldset>
     			<legend>Character info:</legend>
     			<p>Name:</p>
-    			<p><input type="text" name="name" value="Your in-game name"></p>
+    			<input class="fields" type="text" name="name" value="Your in-game name">
 
     			<p>Class:</p>
-    			<p><input type="text" name="class" value="Your class"></p>
+    			<input class="fields" type="text" name="class" value="Your class">
 
     			<p>Comments:</p>
-    			<p><textarea name="comments" rows="5" cols="33">Your comments</textarea></p>
+    			<p><textarea name="comments" rows="5" cols="38">Your comments</textarea></p>
 
     			<p id="type">Are you:</p>
     			<br>
@@ -109,9 +109,18 @@
     			<br>
     			<p class="region">Server Region - </p>
     			<select class="region">
-    				<option>EU</option>
-    				<option>US</option>
-    				<option>RU</option>
+    				<optgroup label="West">
+    					<option>North America</option>
+    					<option>South America</option>
+    				</optgroup>
+    				<optgroup label="Central">
+    					<option>United Kingdom</option>
+    					<option>Europe</option>
+    				</optgroup>
+    				<optgroup label="East">
+    					<option>Russia</option>
+    					<option>Asia</option>
+    				</optgroup>
     			</select>
 
     			<p><input type="submit" value="Submit"></p>
