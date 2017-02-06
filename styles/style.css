@@ -167,3 +167,24 @@ label {
 .fields {
 	width: 259px;
 }
+
+#main-title:target {
+	color: red;
+}
+
+fieldset {
+	margin: 0 2px;
+	
+	-webkit-margin-start: 0;
+    -webkit-margin-end: 0;
+    -webkit-padding-before: 0;
+    -webkit-padding-start: 0;
+    -webkit-padding-end: 0;
+    -webkit-padding-after: 0;
+    min-width: 300px;
+    padding: 3.5px 6.25px 7.5px 6.25px;
+}
+
+fieldset textarea {
+	width: 290px;
+}
