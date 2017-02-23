@@ -19,7 +19,7 @@ if(!localStorage.getItem('name')) {
 	setUserName();
 } else {
 	var storedName = localStorage.getItem('name');
-	myHeading.textContent ='Do you like video games?';
+	myHeading.textContent ='Hi '+ storedName + ', Do you like video games? ';
 }
 myButton.onclick = function() {
 	setUserName();
